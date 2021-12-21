@@ -44,7 +44,7 @@ function Main(){
                         </div>
                       </div>
                       <div className="section-footer">
-                        <Button>Lee más sobre mi</Button>
+                        <Button className="button">Lee más sobre mi</Button>
                       </div>
                     </div>
                   </section>
