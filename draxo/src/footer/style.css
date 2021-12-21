@@ -83,3 +83,15 @@ a {
 .footer-address {
     color: white;
 }
+
+@media screen and (min-width: 360px) and (max-width: 800px){
+    .footer{
+        overflow-x: hidden;
+        overflow-x: hidden;
+        position: inherit;
+    }
+
+    .social .nav{
+        overflow-x: hidden;
+    }
+}
