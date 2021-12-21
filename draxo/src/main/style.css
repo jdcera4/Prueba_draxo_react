@@ -1,0 +1,63 @@
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-1-2 {
+    width: 50%;
+}
+
+[class^="col-"] {
+    float: left;
+    padding: 0.5rem;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-body {
+    padding: 0 0 3rem;
+    margin-bottom: 8rem;
+  }
+  
+.section-body .row .col-1-2{
+    padding: 5%;
+}
+
+.section-hero {
+    background-size: 90rem auto;
+    background-image: url(../images/blur.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.section-hero .section-title {
+    margin-bottom: 1rem;
+    margin-top: 0;
+    color: white;
+  }
+.section-text{
+  color:rgb(182, 182, 182);
+  font-size: 2.5rem;
+}
+
+.container .people .image{
+    border: solid 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
