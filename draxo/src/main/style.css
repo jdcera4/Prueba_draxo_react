@@ -22,6 +22,7 @@
 .section-body {
     padding: 0 0 3rem;
     margin-bottom: 8rem;
+    height: 200%;
   }
   
 .section-body .row .col-1-2{
@@ -29,7 +30,7 @@
 }
 
 .section-hero {
-    background-size: 90rem auto;
+    background-size: 100rem auto;
     background-image: url(../images/blur.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -52,12 +53,48 @@
     border: solid 5px;
     border-radius: 50%;
     position: absolute;
-    top: 25%;
-    left: 40%;
+    top: 20%;
+    left: 44%;
     margin-bottom: 1rem;
 }
+
+.section-hero .section-inner {
+    padding: 5rem 0rem 5rem 0;
+}
+.section-header .section-title{
+    margin-left: 4%;
+}
+  
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
+}
+
+@media screen and (min-width: 360px) and (max-width: 800px){
+    .container .section-body{
+        margin-bottom: 2%;
+        overflow-x: hidden;
+    }
+    .container .section-inner{
+        padding-bottom: 0;
+        overflow-x: hidden;
+    }
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        overflow-x: hidden;
+    }
+    .col-1-2{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .container .people .image{
+        width: 40%;
+        bottom: 5%;
+        left: 0%;
+        position: relative;
+        overflow-x: hidden;
+    }
 }

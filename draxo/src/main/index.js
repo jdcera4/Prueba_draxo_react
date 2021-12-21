@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import {Image} from '../styled_components/people'
 import people from '../images/people.png'
+import { Button } from '../styled_components/boton'
 
 
 function Main(){
@@ -43,7 +44,7 @@ function Main(){
                         </div>
                       </div>
                       <div className="section-footer">
-                        <a href="#" className="button">Learn more about us</a>
+                        <Button>Lee más sobre mi</Button>
                       </div>
                     </div>
                   </section>
